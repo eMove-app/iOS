@@ -1,0 +1,6 @@
+framework module Pods_eMOVE {
+  umbrella header "Pods-eMOVE-umbrella.h"
+
+  export *
+  module * { export * }
+}
