@@ -7,22 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222D849121444D1700339920 /* FindRide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222D849021444D1700339920 /* FindRide.storyboard */; };
+		222D849321444D7500339920 /* CreateRide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222D849221444D7500339920 /* CreateRide.storyboard */; };
+		222D849521444ECC00339920 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D849421444ECC00339920 /* HomeVC.swift */; };
+		222D849721444EDC00339920 /* FindRideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D849621444EDC00339920 /* FindRideVC.swift */; };
+		222D849921444EEB00339920 /* CreateRideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D849821444EEB00339920 /* CreateRideVC.swift */; };
+		222D849B214450E200339920 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D849A214450E200339920 /* UIView+Layout.swift */; };
+		222D849D2144539D00339920 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222D849C2144539D00339920 /* Account.storyboard */; };
+		222D849F214453E000339920 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D849E214453E000339920 /* AccountVC.swift */; };
+		2260EAA1214409210072C05F /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2260EAA0214409210072C05F /* Map.storyboard */; };
+		2260EAA5214409DF0072C05F /* Storyboard+ViewControllerInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260EAA4214409DF0072C05F /* Storyboard+ViewControllerInit.swift */; };
+		2260EAB1214411660072C05F /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260EAAC214411660072C05F /* MapVC.swift */; };
+		2260EABB214416120072C05F /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260EAB8214416120072C05F /* UserAPI.swift */; };
+		2260EABC214416120072C05F /* UserTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260EAB9214416120072C05F /* UserTarget.swift */; };
+		2260EABE214416A10072C05F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260EABD214416A10072C05F /* User.swift */; };
+		2260EAC721441F790072C05F /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2260EAC621441F790072C05F /* Login.storyboard */; };
+		2260EAC9214420480072C05F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2260EAC8214420480072C05F /* Home.storyboard */; };
 		22AD05E12143EFEE00ED9F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AD05E02143EFEE00ED9F90 /* AppDelegate.swift */; };
-		22AD05E32143EFEE00ED9F90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AD05E22143EFEE00ED9F90 /* ViewController.swift */; };
 		22AD05E62143EFEE00ED9F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AD05E42143EFEE00ED9F90 /* Main.storyboard */; };
 		22AD05E82143EFEF00ED9F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AD05E72143EFEF00ED9F90 /* Assets.xcassets */; };
 		22AD05EB2143EFEF00ED9F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AD05E92143EFEF00ED9F90 /* LaunchScreen.storyboard */; };
+		22BD85DA214442440072FBA7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22BD85D9214442440072FBA7 /* GoogleService-Info.plist */; };
+		22D80D102143F23400F5CFDF /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80BCA2143F23400F5CFDF /* APIConstants.swift */; };
+		22D80D112143F23400F5CFDF /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80BCB2143F23400F5CFDF /* APIProvider.swift */; };
+		22D80DCD2143F23500F5CFDF /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80C892143F23400F5CFDF /* BaseService.swift */; };
+		22D80DCE2143F23500F5CFDF /* APITarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80C8A2143F23400F5CFDF /* APITarget.swift */; };
+		22D80DCF2143F23500F5CFDF /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80C8B2143F23400F5CFDF /* APIEndpoint.swift */; };
+		22D80DD02143F23500F5CFDF /* UserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80C8C2143F23400F5CFDF /* UserAgent.swift */; };
+		22D80DD12143F23500F5CFDF /* TrustPolicyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80C8D2143F23400F5CFDF /* TrustPolicyManager.swift */; };
+		22D80E352143F83D00F5CFDF /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80E342143F83D00F5CFDF /* APIResponse.swift */; };
+		22D80E372143F86000F5CFDF /* APINotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80E362143F86000F5CFDF /* APINotifications.swift */; };
+		22D80E392143F89800F5CFDF /* SResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80E382143F89800F5CFDF /* SResponseError.swift */; };
+		22D80E3C2143F91B00F5CFDF /* MoyaProvider+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80E3B2143F91B00F5CFDF /* MoyaProvider+Promise.swift */; };
+		22D80E3E2143F98800F5CFDF /* UIAlertController+Present.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80E3D2143F98800F5CFDF /* UIAlertController+Present.swift */; };
+		22D80E402143F9CC00F5CFDF /* UIApplication+TopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80E3F2143F9CC00F5CFDF /* UIApplication+TopVC.swift */; };
+		22D80E472143FF8E00F5CFDF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80E462143FF8E00F5CFDF /* LoginVC.swift */; };
+		22E126BD2144748F00D60385 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E126BC2144748F00D60385 /* Car.swift */; };
+		22E126BF2144750300D60385 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E126BE2144750300D60385 /* Address.swift */; };
 		689132A9FC819B5ACEBE2A20 /* Pods_eMOVE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9515DAEDBAEB5C2A67116C53 /* Pods_eMOVE.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		222D849021444D1700339920 /* FindRide.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FindRide.storyboard; sourceTree = "<group>"; };
+		222D849221444D7500339920 /* CreateRide.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateRide.storyboard; sourceTree = "<group>"; };
+		222D849421444ECC00339920 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		222D849621444EDC00339920 /* FindRideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindRideVC.swift; sourceTree = "<group>"; };
+		222D849821444EEB00339920 /* CreateRideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRideVC.swift; sourceTree = "<group>"; };
+		222D849A214450E200339920 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		222D849C2144539D00339920 /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		222D849E214453E000339920 /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
+		2260EAA0214409210072C05F /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		2260EAA4214409DF0072C05F /* Storyboard+ViewControllerInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+ViewControllerInit.swift"; sourceTree = "<group>"; };
+		2260EAAC214411660072C05F /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		2260EAB8214416120072C05F /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		2260EAB9214416120072C05F /* UserTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTarget.swift; sourceTree = "<group>"; };
+		2260EABD214416A10072C05F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2260EAC621441F790072C05F /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		2260EAC8214420480072C05F /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		22AD05DD2143EFEE00ED9F90 /* eMOVE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eMOVE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AD05E02143EFEE00ED9F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22AD05E22143EFEE00ED9F90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22AD05E52143EFEE00ED9F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22AD05E72143EFEF00ED9F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22AD05EA2143EFEF00ED9F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22AD05EC2143EFEF00ED9F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22BD85D9214442440072FBA7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22D80BCA2143F23400F5CFDF /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		22D80BCB2143F23400F5CFDF /* APIProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
+		22D80C892143F23400F5CFDF /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		22D80C8A2143F23400F5CFDF /* APITarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APITarget.swift; sourceTree = "<group>"; };
+		22D80C8B2143F23400F5CFDF /* APIEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		22D80C8C2143F23400F5CFDF /* UserAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAgent.swift; sourceTree = "<group>"; };
+		22D80C8D2143F23400F5CFDF /* TrustPolicyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustPolicyManager.swift; sourceTree = "<group>"; };
+		22D80E342143F83D00F5CFDF /* APIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		22D80E362143F86000F5CFDF /* APINotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APINotifications.swift; sourceTree = "<group>"; };
+		22D80E382143F89800F5CFDF /* SResponseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SResponseError.swift; sourceTree = "<group>"; };
+		22D80E3B2143F91B00F5CFDF /* MoyaProvider+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MoyaProvider+Promise.swift"; sourceTree = "<group>"; };
+		22D80E3D2143F98800F5CFDF /* UIAlertController+Present.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Present.swift"; sourceTree = "<group>"; };
+		22D80E3F2143F9CC00F5CFDF /* UIApplication+TopVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+TopVC.swift"; sourceTree = "<group>"; };
+		22D80E462143FF8E00F5CFDF /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		22E126BC2144748F00D60385 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		22E126BE2144750300D60385 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		33DFA3B184E17E7B31EA859C /* Pods-eMOVE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eMOVE.release.xcconfig"; path = "Pods/Target Support Files/Pods-eMOVE/Pods-eMOVE.release.xcconfig"; sourceTree = "<group>"; };
 		9515DAEDBAEB5C2A67116C53 /* Pods_eMOVE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eMOVE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7025003403A272C235DE6BE /* Pods-eMOVE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eMOVE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eMOVE/Pods-eMOVE.debug.xcconfig"; sourceTree = "<group>"; };
@@ -40,6 +104,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2260EA9F214408D50072C05F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2260EAC621441F790072C05F /* Login.storyboard */,
+				2260EAC8214420480072C05F /* Home.storyboard */,
+				2260EAA0214409210072C05F /* Map.storyboard */,
+				222D849021444D1700339920 /* FindRide.storyboard */,
+				222D849221444D7500339920 /* CreateRide.storyboard */,
+				222D849C2144539D00339920 /* Account.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2260EAAB214411660072C05F /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				2260EAAC214411660072C05F /* MapVC.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		2260EAB5214415FF0072C05F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2260EAB6214416120072C05F /* User */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2260EAB6214416120072C05F /* User */ = {
+			isa = PBXGroup;
+			children = (
+				2260EAB8214416120072C05F /* UserAPI.swift */,
+				2260EAB9214416120072C05F /* UserTarget.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		2260EAC121441D160072C05F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		22AD05D42143EFEE00ED9F90 = {
 			isa = PBXGroup;
 			children = (
@@ -61,14 +170,73 @@
 		22AD05DF2143EFEE00ED9F90 /* eMOVE */ = {
 			isa = PBXGroup;
 			children = (
+				2260EAC121441D160072C05F /* Managers */,
+				22D80BC72143F23400F5CFDF /* Networking */,
+				2260EA9F214408D50072C05F /* Storyboards */,
+				22D80E432143FF6D00F5CFDF /* Screens */,
+				22D80E3A2143F91B00F5CFDF /* Extensions */,
 				22AD05E02143EFEE00ED9F90 /* AppDelegate.swift */,
-				22AD05E22143EFEE00ED9F90 /* ViewController.swift */,
 				22AD05E42143EFEE00ED9F90 /* Main.storyboard */,
 				22AD05E72143EFEF00ED9F90 /* Assets.xcassets */,
 				22AD05E92143EFEF00ED9F90 /* LaunchScreen.storyboard */,
 				22AD05EC2143EFEF00ED9F90 /* Info.plist */,
+				22BD85D9214442440072FBA7 /* GoogleService-Info.plist */,
 			);
 			path = eMOVE;
+			sourceTree = "<group>";
+		};
+		22D80BC72143F23400F5CFDF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2260EAB5214415FF0072C05F /* Services */,
+				22D80E332143F83D00F5CFDF /* Models */,
+				22D80BCA2143F23400F5CFDF /* APIConstants.swift */,
+				22D80BCB2143F23400F5CFDF /* APIProvider.swift */,
+				22D80C892143F23400F5CFDF /* BaseService.swift */,
+				22D80C8A2143F23400F5CFDF /* APITarget.swift */,
+				22D80C8C2143F23400F5CFDF /* UserAgent.swift */,
+				22D80C8B2143F23400F5CFDF /* APIEndpoint.swift */,
+				22D80C8D2143F23400F5CFDF /* TrustPolicyManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		22D80E332143F83D00F5CFDF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				22D80E382143F89800F5CFDF /* SResponseError.swift */,
+				22D80E362143F86000F5CFDF /* APINotifications.swift */,
+				22D80E342143F83D00F5CFDF /* APIResponse.swift */,
+				2260EABD214416A10072C05F /* User.swift */,
+				22E126BC2144748F00D60385 /* Car.swift */,
+				22E126BE2144750300D60385 /* Address.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		22D80E3A2143F91B00F5CFDF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2260EAA4214409DF0072C05F /* Storyboard+ViewControllerInit.swift */,
+				22D80E3D2143F98800F5CFDF /* UIAlertController+Present.swift */,
+				22D80E3B2143F91B00F5CFDF /* MoyaProvider+Promise.swift */,
+				22D80E3F2143F9CC00F5CFDF /* UIApplication+TopVC.swift */,
+				222D849A214450E200339920 /* UIView+Layout.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		22D80E432143FF6D00F5CFDF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2260EAAB214411660072C05F /* Map */,
+				22D80E462143FF8E00F5CFDF /* LoginVC.swift */,
+				222D849421444ECC00339920 /* HomeVC.swift */,
+				222D849621444EDC00339920 /* FindRideVC.swift */,
+				222D849821444EEB00339920 /* CreateRideVC.swift */,
+				222D849E214453E000339920 /* AccountVC.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		FC2EE9AEDC1F1DE94CE15E4E /* Pods */ = {
@@ -100,6 +268,7 @@
 				22AD05DA2143EFEE00ED9F90 /* Frameworks */,
 				22AD05DB2143EFEE00ED9F90 /* Resources */,
 				F7CD9D9EB06D22A8424FDD1C /* [CP] Embed Pods Frameworks */,
+				029BF782AD8989639587D0EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,15 +317,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222D849321444D7500339920 /* CreateRide.storyboard in Resources */,
 				22AD05EB2143EFEF00ED9F90 /* LaunchScreen.storyboard in Resources */,
+				222D849D2144539D00339920 /* Account.storyboard in Resources */,
 				22AD05E82143EFEF00ED9F90 /* Assets.xcassets in Resources */,
 				22AD05E62143EFEE00ED9F90 /* Main.storyboard in Resources */,
+				2260EAC9214420480072C05F /* Home.storyboard in Resources */,
+				2260EAC721441F790072C05F /* Login.storyboard in Resources */,
+				2260EAA1214409210072C05F /* Map.storyboard in Resources */,
+				22BD85DA214442440072FBA7 /* GoogleService-Info.plist in Resources */,
+				222D849121444D1700339920 /* FindRide.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		029BF782AD8989639587D0EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-eMOVE/Pods-eMOVE-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eMOVE/Pods-eMOVE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6DA45B45BA7E0FB8368023B3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -182,15 +376,57 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-eMOVE/Pods-eMOVE-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AssistantKit/AssistantKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/Simple-KeychainSwift/Simple_KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyUUID/SwiftyUUID.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/TLFloatLabelTextField/TLFloatLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AssistantKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Simple_KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUUID.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TLFloatLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -204,8 +440,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22AD05E32143EFEE00ED9F90 /* ViewController.swift in Sources */,
+				22D80E3E2143F98800F5CFDF /* UIAlertController+Present.swift in Sources */,
+				222D849F214453E000339920 /* AccountVC.swift in Sources */,
+				2260EABB214416120072C05F /* UserAPI.swift in Sources */,
+				22D80DCF2143F23500F5CFDF /* APIEndpoint.swift in Sources */,
+				22E126BD2144748F00D60385 /* Car.swift in Sources */,
+				22D80D102143F23400F5CFDF /* APIConstants.swift in Sources */,
+				22D80E402143F9CC00F5CFDF /* UIApplication+TopVC.swift in Sources */,
+				2260EAB1214411660072C05F /* MapVC.swift in Sources */,
+				22D80E392143F89800F5CFDF /* SResponseError.swift in Sources */,
+				22D80E352143F83D00F5CFDF /* APIResponse.swift in Sources */,
+				2260EABE214416A10072C05F /* User.swift in Sources */,
+				2260EAA5214409DF0072C05F /* Storyboard+ViewControllerInit.swift in Sources */,
 				22AD05E12143EFEE00ED9F90 /* AppDelegate.swift in Sources */,
+				22D80DD02143F23500F5CFDF /* UserAgent.swift in Sources */,
+				22D80E3C2143F91B00F5CFDF /* MoyaProvider+Promise.swift in Sources */,
+				22D80DCE2143F23500F5CFDF /* APITarget.swift in Sources */,
+				2260EABC214416120072C05F /* UserTarget.swift in Sources */,
+				222D849721444EDC00339920 /* FindRideVC.swift in Sources */,
+				22E126BF2144750300D60385 /* Address.swift in Sources */,
+				222D849521444ECC00339920 /* HomeVC.swift in Sources */,
+				22D80DCD2143F23500F5CFDF /* BaseService.swift in Sources */,
+				22D80DD12143F23500F5CFDF /* TrustPolicyManager.swift in Sources */,
+				222D849B214450E200339920 /* UIView+Layout.swift in Sources */,
+				222D849921444EEB00339920 /* CreateRideVC.swift in Sources */,
+				22D80D112143F23400F5CFDF /* APIProvider.swift in Sources */,
+				22D80E372143F86000F5CFDF /* APINotifications.swift in Sources */,
+				22D80E472143FF8E00F5CFDF /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

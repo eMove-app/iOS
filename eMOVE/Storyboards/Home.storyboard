@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tZI-hY-68I">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HomeVC-->
+        <scene sceneID="CaZ-gL-oya">
+            <objects>
+                <viewController storyboardIdentifier="HomeVC" id="AvI-Cv-qBt" customClass="HomeVC" customModule="eMOVE" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vGo-w5-DV3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vyS-jx-BZU" userLabel="buttonsContainer">
+                                <rect key="frame" x="0.0" y="233.5" width="375" height="120"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHa-pf-1iy" userLabel="createRideButton">
+                                        <rect key="frame" x="20" y="0.0" width="335" height="55"/>
+                                        <color key="backgroundColor" red="0.37846783841533438" green="0.71389045659537187" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="Lgn-h8-z2k"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Creeză o cursă">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="createRideButtonPressed:" destination="AvI-Cv-qBt" eventType="touchUpInside" id="9Jt-Hp-wsq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3g-J3-GkJ" userLabel="findRideButton">
+                                        <rect key="frame" x="20" y="70" width="335" height="50"/>
+                                        <color key="backgroundColor" red="0.37846783839999998" green="0.71389045659999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="VCN-6r-qGV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Caută o cursă">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="findRideButtonPressed:" destination="AvI-Cv-qBt" eventType="touchUpInside" id="Ctn-pe-2ij"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="xHa-pf-1iy" firstAttribute="top" secondItem="vyS-jx-BZU" secondAttribute="top" id="Hhw-K6-54L"/>
+                                    <constraint firstAttribute="bottom" secondItem="B3g-J3-GkJ" secondAttribute="bottom" id="Jf2-wz-Oze"/>
+                                    <constraint firstAttribute="trailing" secondItem="B3g-J3-GkJ" secondAttribute="trailing" constant="20" id="PA2-as-sgb"/>
+                                    <constraint firstItem="xHa-pf-1iy" firstAttribute="leading" secondItem="vyS-jx-BZU" secondAttribute="leading" constant="20" id="RFx-rO-bwn"/>
+                                    <constraint firstAttribute="height" constant="120" id="XpZ-Zd-yLg"/>
+                                    <constraint firstItem="B3g-J3-GkJ" firstAttribute="leading" secondItem="vyS-jx-BZU" secondAttribute="leading" constant="20" id="bxJ-ia-atu"/>
+                                    <constraint firstAttribute="trailing" secondItem="xHa-pf-1iy" secondAttribute="trailing" constant="20" id="ibg-r7-HWB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2oa-p1-H5W" firstAttribute="trailing" secondItem="vyS-jx-BZU" secondAttribute="trailing" id="JHN-fV-Sp7"/>
+                            <constraint firstItem="vyS-jx-BZU" firstAttribute="leading" secondItem="2oa-p1-H5W" secondAttribute="leading" id="XO6-88-Rps"/>
+                            <constraint firstItem="vyS-jx-BZU" firstAttribute="centerY" secondItem="vGo-w5-DV3" secondAttribute="centerY" constant="-40" id="yUU-AF-cbU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2oa-p1-H5W"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="efh-aX-MD4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tyD-h4-bRX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028" y="80.50974512743629"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9AS-fz-qsZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="tZI-hY-68I" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Dq8-f4-Z0p">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="AvI-Cv-qBt" kind="relationship" relationship="rootViewController" id="Zu6-6Y-mRC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ljw-y9-XGX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="88.799999999999997" y="80.50974512743629"/>
+        </scene>
+    </scenes>
+</document>
