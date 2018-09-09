@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class RideCell: UITableViewCell {
 
@@ -15,5 +16,16 @@ class RideCell: UITableViewCell {
     @IBOutlet var phoneLabel: UILabel!
     @IBOutlet var delayLabel: UILabel!
     @IBOutlet var timeLabel: UILabel!
+    
+    public func setupWith(_ ride: Direction) {
+        if let imageResourceString = ride.user?.pictureUrl,
+            let url = URL(string: imageResourceString) {
+            self.driverImageView.kf.setImage(with: url)
+        }
+        self.nameLabel.text = ride.user?.name ?? ""
+        self.phoneLabel.text = ride.user?.phone ?? ""
+        self.delayLabel.text = ""
+        self.timeLabel.text = ""
+    }
     
 }

@@ -33,6 +33,7 @@ extension RidesVC: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let item = self.rides[indexPath.row]
         let cell = tableView.dequeueReusableCell(withClass: RideCell.self, for: indexPath)
+        cell.setupWith(item)
         return cell
     }
 }

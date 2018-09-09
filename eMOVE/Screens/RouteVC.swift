@@ -36,7 +36,7 @@ class RouteVC: UIViewController {
             self.drawPathWith(initialCoordinates)
         }
         
-        if let updatedPolyline = direction.initialPolyline,
+        if let updatedPolyline = direction.updatedPolyline,
             let updatedCoordinates: [CLLocationCoordinate2D] = decodePolyline(updatedPolyline) {
             self.drawPathWith(updatedCoordinates)
         }
