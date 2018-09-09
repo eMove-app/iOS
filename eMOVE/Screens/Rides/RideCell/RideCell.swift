@@ -23,9 +23,7 @@ class RideCell: UITableViewCell {
             self.driverImageView.kf.setImage(with: url)
         }
         self.nameLabel.text = ride.user?.name ?? ""
-        self.phoneLabel.text = ride.user?.phone ?? ""
-        self.delayLabel.text = ""
-        self.timeLabel.text = ""
+        self.delayLabel.text = "\((ride.delta ?? 0)/60) min"
+        self.timeLabel.text = "\((ride.eta ?? 0)/60) min"
     }
-    
 }

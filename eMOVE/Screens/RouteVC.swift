@@ -20,6 +20,10 @@ class RouteVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.drawPathsOnMap()
+        self.direction?.points?.forEach {
+            let marker = PlaceMarker(place: $0)
+            marker.map = self.mapView
+        }
     }
     
     
@@ -40,7 +44,6 @@ class RouteVC: UIViewController {
             let initialCoordinates: [CLLocationCoordinate2D] = decodePolyline(initialPolylineString) {
             self.drawPathWith(initialCoordinates, color: .blue)
         }
-        
     }
 
     private func drawPathWith(_ coordinates: [CLLocationCoordinate2D], color: UIColor) {

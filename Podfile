@@ -26,5 +26,7 @@ pod 'SkyFloatingLabelTextField', '~> 3.0'
 pod 'TimePicker'
 pod 'Polyline', '~> 4.0'
 pod 'NVActivityIndicatorView'
+pod 'Fabric'
+pod 'Crashlytics'
 
 end

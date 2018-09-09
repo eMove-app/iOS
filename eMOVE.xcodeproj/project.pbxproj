@@ -27,6 +27,17 @@
 		229F36082144BE2800D087B1 /* Rides.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229F36072144BE2800D087B1 /* Rides.storyboard */; };
 		229F360C2144BEE500D087B1 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F360B2144BEE500D087B1 /* Reusable.swift */; };
 		229F360F2144BF1900D087B1 /* RidesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F360E2144BF1900D087B1 /* RidesVC.swift */; };
+		22AC9DB82144FEFC00716017 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22AC9DAE2144FEFB00716017 /* OpenSans-Semibold.ttf */; };
+		22AC9DB92144FEFC00716017 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22AC9DAF2144FEFB00716017 /* OpenSans-Light.ttf */; };
+		22AC9DBA2144FEFC00716017 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22AC9DB02144FEFB00716017 /* OpenSans-Italic.ttf */; };
+		22AC9DBB2144FEFC00716017 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22AC9DB12144FEFB00716017 /* OpenSans-ExtraBold.ttf */; };
+		22AC9DBC2144FEFC00716017 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22AC9DB22144FEFB00716017 /* OpenSans-LightItalic.ttf */; };
+		22AC9DBD2144FEFC00716017 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22AC9DB32144FEFB00716017 /* OpenSans-Bold.ttf */; };
+		22AC9DBE2144FEFC00716017 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22AC9DB42144FEFB00716017 /* OpenSans-SemiboldItalic.ttf */; };
+		22AC9DBF2144FEFC00716017 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22AC9DB52144FEFB00716017 /* OpenSans-ExtraBoldItalic.ttf */; };
+		22AC9DC02144FEFC00716017 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22AC9DB62144FEFB00716017 /* OpenSans-Regular.ttf */; };
+		22AC9DC12144FEFC00716017 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22AC9DB72144FEFB00716017 /* OpenSans-BoldItalic.ttf */; };
+		22AC9DC32144FF2000716017 /* UIFont+Opensans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AC9DC22144FF2000716017 /* UIFont+Opensans.swift */; };
 		22AD05E12143EFEE00ED9F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AD05E02143EFEE00ED9F90 /* AppDelegate.swift */; };
 		22AD05E62143EFEE00ED9F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AD05E42143EFEE00ED9F90 /* Main.storyboard */; };
 		22AD05E82143EFEF00ED9F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AD05E72143EFEF00ED9F90 /* Assets.xcassets */; };
@@ -62,6 +73,8 @@
 		22E126CB2144A2A600D60385 /* RideDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E126CA2144A2A600D60385 /* RideDTO.swift */; };
 		22E126CD2144A31300D60385 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E126CC2144A31300D60385 /* Coordinate.swift */; };
 		22E126CF2144A52E00D60385 /* String+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E126CE2144A52E00D60385 /* String+Dictionary.swift */; };
+		22EB852C2144F59100706CE6 /* PinPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EB852B2144F59100706CE6 /* PinPoint.swift */; };
+		22EB852E2144F76200706CE6 /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EB852D2144F76200706CE6 /* PlaceMarker.swift */; };
 		689132A9FC819B5ACEBE2A20 /* Pods_eMOVE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9515DAEDBAEB5C2A67116C53 /* Pods_eMOVE.framework */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +99,17 @@
 		229F36072144BE2800D087B1 /* Rides.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Rides.storyboard; sourceTree = "<group>"; };
 		229F360B2144BEE500D087B1 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		229F360E2144BF1900D087B1 /* RidesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidesVC.swift; sourceTree = "<group>"; };
+		22AC9DAE2144FEFB00716017 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		22AC9DAF2144FEFB00716017 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		22AC9DB02144FEFB00716017 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		22AC9DB12144FEFB00716017 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		22AC9DB22144FEFB00716017 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		22AC9DB32144FEFB00716017 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		22AC9DB42144FEFB00716017 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		22AC9DB52144FEFB00716017 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		22AC9DB62144FEFB00716017 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		22AC9DB72144FEFB00716017 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		22AC9DC22144FF2000716017 /* UIFont+Opensans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Opensans.swift"; sourceTree = "<group>"; };
 		22AD05DD2143EFEE00ED9F90 /* eMOVE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eMOVE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AD05E02143EFEE00ED9F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22AD05E52143EFEE00ED9F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -123,6 +147,8 @@
 		22E126CA2144A2A600D60385 /* RideDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDTO.swift; sourceTree = "<group>"; };
 		22E126CC2144A31300D60385 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
 		22E126CE2144A52E00D60385 /* String+Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Dictionary.swift"; sourceTree = "<group>"; };
+		22EB852B2144F59100706CE6 /* PinPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPoint.swift; sourceTree = "<group>"; };
+		22EB852D2144F76200706CE6 /* PlaceMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMarker.swift; sourceTree = "<group>"; };
 		33DFA3B184E17E7B31EA859C /* Pods-eMOVE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eMOVE.release.xcconfig"; path = "Pods/Target Support Files/Pods-eMOVE/Pods-eMOVE.release.xcconfig"; sourceTree = "<group>"; };
 		9515DAEDBAEB5C2A67116C53 /* Pods_eMOVE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eMOVE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7025003403A272C235DE6BE /* Pods-eMOVE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eMOVE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eMOVE/Pods-eMOVE.debug.xcconfig"; sourceTree = "<group>"; };
@@ -196,6 +222,23 @@
 			path = Rides;
 			sourceTree = "<group>";
 		};
+		22AC9DAD2144FEFB00716017 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				22AC9DAE2144FEFB00716017 /* OpenSans-Semibold.ttf */,
+				22AC9DAF2144FEFB00716017 /* OpenSans-Light.ttf */,
+				22AC9DB02144FEFB00716017 /* OpenSans-Italic.ttf */,
+				22AC9DB12144FEFB00716017 /* OpenSans-ExtraBold.ttf */,
+				22AC9DB22144FEFB00716017 /* OpenSans-LightItalic.ttf */,
+				22AC9DB32144FEFB00716017 /* OpenSans-Bold.ttf */,
+				22AC9DB42144FEFB00716017 /* OpenSans-SemiboldItalic.ttf */,
+				22AC9DB52144FEFB00716017 /* OpenSans-ExtraBoldItalic.ttf */,
+				22AC9DB62144FEFB00716017 /* OpenSans-Regular.ttf */,
+				22AC9DB72144FEFB00716017 /* OpenSans-BoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		22AD05D42143EFEE00ED9F90 = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +265,7 @@
 				2260EA9F214408D50072C05F /* Storyboards */,
 				22D80E432143FF6D00F5CFDF /* Screens */,
 				22D80E3A2143F91B00F5CFDF /* Extensions */,
+				22AC9DAD2144FEFB00716017 /* Fonts */,
 				22E126C02144800300D60385 /* Subclasses */,
 				22AD05E02143EFEE00ED9F90 /* AppDelegate.swift */,
 				22AD05E42143EFEE00ED9F90 /* Main.storyboard */,
@@ -274,6 +318,8 @@
 				22CF84FB2144CB40004C47C6 /* Leg.swift */,
 				22CF84F92144CAC4004C47C6 /* Step.swift */,
 				22CF84F72144CA6D004C47C6 /* StepLocation.swift */,
+				22EB852B2144F59100706CE6 /* PinPoint.swift */,
+				22EB852D2144F76200706CE6 /* PlaceMarker.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -281,6 +327,7 @@
 		22D80E3A2143F91B00F5CFDF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				22AC9DC22144FF2000716017 /* UIFont+Opensans.swift */,
 				2260EAA4214409DF0072C05F /* Storyboard+ViewControllerInit.swift */,
 				22D80E3D2143F98800F5CFDF /* UIAlertController+Present.swift */,
 				22D80E3B2143F91B00F5CFDF /* MoyaProvider+Promise.swift */,
@@ -355,6 +402,7 @@
 				22AD05DB2143EFEE00ED9F90 /* Resources */,
 				F7CD9D9EB06D22A8424FDD1C /* [CP] Embed Pods Frameworks */,
 				029BF782AD8989639587D0EE /* [CP] Copy Pods Resources */,
+				22EB852F2144F9C700706CE6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -405,15 +453,25 @@
 			files = (
 				222D849321444D7500339920 /* CreateOrFindRide.storyboard in Resources */,
 				22AD05EB2143EFEF00ED9F90 /* LaunchScreen.storyboard in Resources */,
+				22AC9DB92144FEFC00716017 /* OpenSans-Light.ttf in Resources */,
+				22AC9DBA2144FEFC00716017 /* OpenSans-Italic.ttf in Resources */,
 				229F36082144BE2800D087B1 /* Rides.storyboard in Resources */,
+				22AC9DB82144FEFC00716017 /* OpenSans-Semibold.ttf in Resources */,
 				222D849D2144539D00339920 /* Account.storyboard in Resources */,
+				22AC9DBF2144FEFC00716017 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				22AD05E82143EFEF00ED9F90 /* Assets.xcassets in Resources */,
+				22AC9DBC2144FEFC00716017 /* OpenSans-LightItalic.ttf in Resources */,
+				22AC9DC02144FEFC00716017 /* OpenSans-Regular.ttf in Resources */,
 				22AD05E62143EFEE00ED9F90 /* Main.storyboard in Resources */,
 				2260EAC9214420480072C05F /* Home.storyboard in Resources */,
 				229F36042144B80E00D087B1 /* Route.storyboard in Resources */,
+				22AC9DC12144FEFC00716017 /* OpenSans-BoldItalic.ttf in Resources */,
+				22AC9DBB2144FEFC00716017 /* OpenSans-ExtraBold.ttf in Resources */,
 				2260EAC721441F790072C05F /* Login.storyboard in Resources */,
+				22AC9DBD2144FEFC00716017 /* OpenSans-Bold.ttf in Resources */,
 				22CF84F22144C312004C47C6 /* RideCell.xib in Resources */,
 				2260EAA1214409210072C05F /* Map.storyboard in Resources */,
+				22AC9DBE2144FEFC00716017 /* OpenSans-SemiboldItalic.ttf in Resources */,
 				22BD85DA214442440072FBA7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +496,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eMOVE/Pods-eMOVE-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		22EB852F2144F9C700706CE6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" abb5f7fa3ee035cd7f2e86075c5f1f4d4aca7a92 5b2ed527ed66fc6067ed0eb2a513521bd78e8adc2c987ccc1181ea6321890129";
 		};
 		6DA45B45BA7E0FB8368023B3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -536,6 +607,7 @@
 			files = (
 				229F360C2144BEE500D087B1 /* Reusable.swift in Sources */,
 				22D80E3E2143F98800F5CFDF /* UIAlertController+Present.swift in Sources */,
+				22EB852C2144F59100706CE6 /* PinPoint.swift in Sources */,
 				229F36062144B87C00D087B1 /* RouteVC.swift in Sources */,
 				22CF84F12144C312004C47C6 /* RideCell.swift in Sources */,
 				222D849F214453E000339920 /* AccountVC.swift in Sources */,
@@ -548,6 +620,7 @@
 				22D80E402143F9CC00F5CFDF /* UIApplication+TopVC.swift in Sources */,
 				2260EAB1214411660072C05F /* MapVC.swift in Sources */,
 				22E126C22144800300D60385 /* PaddingLabel.swift in Sources */,
+				22EB852E2144F76200706CE6 /* PlaceMarker.swift in Sources */,
 				22CF84F82144CA6D004C47C6 /* StepLocation.swift in Sources */,
 				22D80E392143F89800F5CFDF /* SResponseError.swift in Sources */,
 				22D80E352143F83D00F5CFDF /* APIResponse.swift in Sources */,
@@ -577,6 +650,7 @@
 				22E126C72144A0AD00D60385 /* RideAPI.swift in Sources */,
 				22D80E472143FF8E00F5CFDF /* LoginVC.swift in Sources */,
 				22CF84F62144C854004C47C6 /* Direction.swift in Sources */,
+				22AC9DC32144FF2000716017 /* UIFont+Opensans.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,6 +15,9 @@ public class Direction {
     var initialPolyline: String?
     var updatedPolyline: String?
     var user: User?
+    var points: [PinPoint]?
+    var eta: Int?
+    var delta: Int?
     
     required public init?(map: Map) {}
 }
@@ -26,5 +29,8 @@ extension Direction: Mappable {
         initialPolyline <- map["initial.directions.overview_polyline.points"]
         updatedPolyline <- map["updated.directions.overview_polyline.points"]
         user <- map["user"]
+        points <- map["points"]
+        eta <- map["eta"]
+        delta <- map["delta.duration"]
     }
 }

@@ -14,7 +14,7 @@ import Simple_KeychainSwift
 let APIManager = MoyaProvider<GenericTarget>(endpointClosure: endpointClosure,
                                             requestClosure: requestClosure,
                                             manager: manager,
-                                            plugins: [NetworkLoggerPlugin(verbose: false,
+                                            plugins: [NetworkLoggerPlugin(verbose: true,
                                                                           cURL: true,
                                                                           responseDataFormatter: JSONFormatter)])
 let manager = Manager(

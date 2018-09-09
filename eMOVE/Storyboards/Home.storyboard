@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--HomeVC-->
         <scene sceneID="CaZ-gL-oya">
@@ -18,6 +23,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backgroundImageView" translatesAutoresizingMaskIntoConstraints="NO" id="4fR-qY-pV4" userLabel="backgroundImageView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vyS-jx-BZU" userLabel="buttonsContainer">
                                 <rect key="frame" x="0.0" y="233.5" width="375" height="120"/>
                                 <subviews>
@@ -27,7 +36,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="55" id="Lgn-h8-z2k"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
                                         <state key="normal" title="Creeză o cursă">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -46,7 +55,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="VCN-6r-qGV"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
                                         <state key="normal" title="Caută o cursă">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -89,7 +98,9 @@
         <scene sceneID="9AS-fz-qsZ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="tZI-hY-68I" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="search" id="eor-8U-IZN"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Dq8-f4-Z0p">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -103,4 +114,7 @@
             <point key="canvasLocation" x="88.799999999999997" y="80.50974512743629"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="backgroundImageView" width="375" height="667"/>
+    </resources>
 </document>

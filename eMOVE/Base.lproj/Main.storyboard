@@ -31,7 +31,7 @@
         <scene sceneID="PyT-2W-a0O">
             <objects>
                 <viewControllerPlaceholder storyboardName="Home" id="h9e-aQ-YvL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="ydt-lT-hzX"/>
+                    <tabBarItem key="tabBarItem" title="fdsfd fsadfdsa" image="rideTabDisabled" id="ydt-lT-hzX"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3nj-p3-au8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -41,11 +41,16 @@
         <scene sceneID="Y3a-l1-6iZ">
             <objects>
                 <viewControllerPlaceholder storyboardName="Account" id="Bz1-It-utU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="csY-8l-IAC"/>
+                    <tabBarItem key="tabBarItem" title="Account" image="userTabDisabled" selectedImage="userTabEnabled" id="csY-8l-IAC"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C0i-3W-xdu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-319" y="-36"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="rideTabDisabled" width="33" height="33"/>
+        <image name="userTabDisabled" width="33" height="33"/>
+        <image name="userTabEnabled" width="33" height="33"/>
+    </resources>
 </document>

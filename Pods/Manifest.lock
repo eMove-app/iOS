@@ -7,6 +7,9 @@ PODS:
   - Bolts/AppLinks (1.9.0):
     - Bolts/Tasks
   - Bolts/Tasks (1.9.0)
+  - Crashlytics (3.10.5):
+    - Fabric (~> 1.7.9)
+  - Fabric (1.7.9)
   - FacebookCore (0.3.1):
     - Bolts (~> 1.8)
     - FBSDKCoreKit (~> 4.33)
@@ -92,6 +95,8 @@ PODS:
 
 DEPENDENCIES:
   - AssistantKit (~> 0.4.1)
+  - Crashlytics
+  - Fabric
   - FacebookCore
   - FacebookLogin
   - FacebookShare
@@ -118,6 +123,8 @@ SPEC REPOS:
     - Alamofire
     - AssistantKit
     - Bolts
+    - Crashlytics
+    - Fabric
     - FacebookCore
     - FacebookLogin
     - FacebookShare
@@ -153,6 +160,8 @@ SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   AssistantKit: 9ee71039dffa9dc050de945258e50e3e6bb20d5c
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Crashlytics: 7f2e38d302d9da96475b3d64d86fb29e31a542b7
+  Fabric: a2917d3895e4c1569b9c3170de7320ea1b1e6661
   FacebookCore: 33078ef1d7d76b73f7e8c990dca7d3ea6db8d22f
   FacebookLogin: 6f15bf4fefd7a8865abbfa8fcd7f3dfd87aa275f
   FacebookShare: c9ee8e5399d961fda00ded9befccacfe04fccf93
@@ -184,6 +193,6 @@ SPEC CHECKSUMS:
   TimePicker: bfe0e888b76e0ca730b76e8547be9fad65f870d9
   TLFloatLabelTextField: 3e2bb61eeb4d9d23d0704bbded7bb1ccf1ae8c6b
 
-PODFILE CHECKSUM: ae13790d38082c8979b009bbf6555de4eee3b0d4
+PODFILE CHECKSUM: a4d30ef4a8d00404f8b8892431cdba68baf526a7
 
 COCOAPODS: 1.5.3
