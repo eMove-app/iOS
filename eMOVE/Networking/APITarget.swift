@@ -41,7 +41,7 @@ public extension Target {
     
     public var task: Task { return .requestPlain }
     
-    public var parameterEncoding: ParameterEncoding { return URLEncoding.default }
+    public var parameterEncoding: Moya.ParameterEncoding { return URLEncoding.default }
     
     public var responseIsFormatted: Bool { return true }
     
@@ -84,7 +84,7 @@ public enum GenericTarget: Target {
         return target.queryURLParameters
     }
     
-    public var parameterEncoding: ParameterEncoding {
+    public var parameterEncoding: Moya.ParameterEncoding {
         return target.parameterEncoding
     }
     

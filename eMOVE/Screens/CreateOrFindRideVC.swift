@@ -73,6 +73,8 @@ class CreateOrFindRideVC: UIViewController {
     
     @IBAction func pickTimeButtonPressed(_ sender: UIButton) {
         self.timePickerView.isHidden = false
+        self.departureTime = Date()
+        self.updateLayout()
         UIView.animate(withDuration: 0.3) {
             self.timePickerView.alpha = 1.0
         }
@@ -92,7 +94,34 @@ class CreateOrFindRideVC: UIViewController {
     }
     
     @IBAction func createRideButtonPressed(_ sender: UIButton) {
+        guard let pickupAddress = self.pickupAddress,
+            let destinationAddress = self.destinationAddress,
+            let departureTime = self.departureTime else { return }
+        if self.findRideMode {
+            let startPoint = Coordinate(latitude: pickupAddress.coordinate.latitude,
+                                        longitude: pickupAddress.coordinate.longitude)
+            RideAPI.find(startPoint, context: self)
+                .done { response in
+                    print(response)
+                }.catch { error in
+                    print(error)
+            }
+        } else {
+            let startPoint = Coordinate(latitude: pickupAddress.coordinate.latitude, longitude: pickupAddress.coordinate.longitude)
+            let endPoint = Coordinate(latitude: destinationAddress.coordinate.latitude, longitude: destinationAddress.coordinate.longitude)
+            
+            let formatter = DateFormatter()
+            formatter.dateFormat = "hh:mm:ss"
+            let startTime = formatter.string(from: departureTime)
+            let input = RideDTO(startPoint: startPoint, endPoint: endPoint, startTime: startTime)
 
+            RideAPI.create(input, context: self)
+            .done { response in
+                print(response)
+            }.catch { error in
+                print(error)
+            }
+        }
     }
 }
 

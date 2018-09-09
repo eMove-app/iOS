@@ -45,6 +45,11 @@
 		22E126BF2144750300D60385 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E126BE2144750300D60385 /* Address.swift */; };
 		22E126C22144800300D60385 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E126C12144800300D60385 /* PaddingLabel.swift */; };
 		22E126C421448ADF00D60385 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E126C321448ADF00D60385 /* UIView+Animations.swift */; };
+		22E126C72144A0AD00D60385 /* RideAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E126C62144A0AD00D60385 /* RideAPI.swift */; };
+		22E126C92144A0BA00D60385 /* RideTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E126C82144A0BA00D60385 /* RideTarget.swift */; };
+		22E126CB2144A2A600D60385 /* RideDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E126CA2144A2A600D60385 /* RideDTO.swift */; };
+		22E126CD2144A31300D60385 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E126CC2144A31300D60385 /* Coordinate.swift */; };
+		22E126CF2144A52E00D60385 /* String+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E126CE2144A52E00D60385 /* String+Dictionary.swift */; };
 		689132A9FC819B5ACEBE2A20 /* Pods_eMOVE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9515DAEDBAEB5C2A67116C53 /* Pods_eMOVE.framework */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +94,11 @@
 		22E126BE2144750300D60385 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		22E126C12144800300D60385 /* PaddingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
 		22E126C321448ADF00D60385 /* UIView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
+		22E126C62144A0AD00D60385 /* RideAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideAPI.swift; sourceTree = "<group>"; };
+		22E126C82144A0BA00D60385 /* RideTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideTarget.swift; sourceTree = "<group>"; };
+		22E126CA2144A2A600D60385 /* RideDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDTO.swift; sourceTree = "<group>"; };
+		22E126CC2144A31300D60385 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		22E126CE2144A52E00D60385 /* String+Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Dictionary.swift"; sourceTree = "<group>"; };
 		33DFA3B184E17E7B31EA859C /* Pods-eMOVE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eMOVE.release.xcconfig"; path = "Pods/Target Support Files/Pods-eMOVE/Pods-eMOVE.release.xcconfig"; sourceTree = "<group>"; };
 		9515DAEDBAEB5C2A67116C53 /* Pods_eMOVE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eMOVE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7025003403A272C235DE6BE /* Pods-eMOVE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eMOVE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eMOVE/Pods-eMOVE.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +139,7 @@
 		2260EAB5214415FF0072C05F /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				22E126C52144A09200D60385 /* Ride */,
 				2260EAB6214416120072C05F /* User */,
 			);
 			path = Services;
@@ -212,6 +223,8 @@
 				2260EABD214416A10072C05F /* User.swift */,
 				22E126BC2144748F00D60385 /* Car.swift */,
 				22E126BE2144750300D60385 /* Address.swift */,
+				22E126CA2144A2A600D60385 /* RideDTO.swift */,
+				22E126CC2144A31300D60385 /* Coordinate.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -225,6 +238,7 @@
 				22D80E3F2143F9CC00F5CFDF /* UIApplication+TopVC.swift */,
 				222D849A214450E200339920 /* UIView+Layout.swift */,
 				22E126C321448ADF00D60385 /* UIView+Animations.swift */,
+				22E126CE2144A52E00D60385 /* String+Dictionary.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -248,6 +262,15 @@
 				22E126C12144800300D60385 /* PaddingLabel.swift */,
 			);
 			path = Subclasses;
+			sourceTree = "<group>";
+		};
+		22E126C52144A09200D60385 /* Ride */ = {
+			isa = PBXGroup;
+			children = (
+				22E126C62144A0AD00D60385 /* RideAPI.swift */,
+				22E126C82144A0BA00D60385 /* RideTarget.swift */,
+			);
+			path = Ride;
 			sourceTree = "<group>";
 		};
 		FC2EE9AEDC1F1DE94CE15E4E /* Pods */ = {
@@ -457,6 +480,7 @@
 				2260EABB214416120072C05F /* UserAPI.swift in Sources */,
 				22D80DCF2143F23500F5CFDF /* APIEndpoint.swift in Sources */,
 				22E126BD2144748F00D60385 /* Car.swift in Sources */,
+				22E126CD2144A31300D60385 /* Coordinate.swift in Sources */,
 				22D80D102143F23400F5CFDF /* APIConstants.swift in Sources */,
 				22D80E402143F9CC00F5CFDF /* UIApplication+TopVC.swift in Sources */,
 				2260EAB1214411660072C05F /* MapVC.swift in Sources */,
@@ -470,6 +494,8 @@
 				22D80E3C2143F91B00F5CFDF /* MoyaProvider+Promise.swift in Sources */,
 				22D80DCE2143F23500F5CFDF /* APITarget.swift in Sources */,
 				2260EABC214416120072C05F /* UserTarget.swift in Sources */,
+				22E126C92144A0BA00D60385 /* RideTarget.swift in Sources */,
+				22E126CB2144A2A600D60385 /* RideDTO.swift in Sources */,
 				222D849721444EDC00339920 /* FindRideVC.swift in Sources */,
 				22E126BF2144750300D60385 /* Address.swift in Sources */,
 				222D849521444ECC00339920 /* HomeVC.swift in Sources */,
@@ -477,9 +503,11 @@
 				22D80DD12143F23500F5CFDF /* TrustPolicyManager.swift in Sources */,
 				222D849B214450E200339920 /* UIView+Layout.swift in Sources */,
 				222D849921444EEB00339920 /* CreateOrFindRideVC.swift in Sources */,
+				22E126CF2144A52E00D60385 /* String+Dictionary.swift in Sources */,
 				22E126C421448ADF00D60385 /* UIView+Animations.swift in Sources */,
 				22D80D112143F23400F5CFDF /* APIProvider.swift in Sources */,
 				22D80E372143F86000F5CFDF /* APINotifications.swift in Sources */,
+				22E126C72144A0AD00D60385 /* RideAPI.swift in Sources */,
 				22D80E472143FF8E00F5CFDF /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
