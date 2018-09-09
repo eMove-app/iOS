@@ -28,21 +28,22 @@ class RouteVC: UIViewController {
         
         if let singlePolylineString = direction.singlePolyline,
             let singleCoordinates: [CLLocationCoordinate2D] = decodePolyline(singlePolylineString) {
-            self.drawPathWith(singleCoordinates)
-        }
-        
-        if let initialPolylineString = direction.initialPolyline,
-            let initialCoordinates: [CLLocationCoordinate2D] = decodePolyline(initialPolylineString) {
-            self.drawPathWith(initialCoordinates)
+            self.drawPathWith(singleCoordinates, color: .blue)
         }
         
         if let updatedPolyline = direction.updatedPolyline,
             let updatedCoordinates: [CLLocationCoordinate2D] = decodePolyline(updatedPolyline) {
-            self.drawPathWith(updatedCoordinates)
+            self.drawPathWith(updatedCoordinates, color: .red)
         }
+        
+        if let initialPolylineString = direction.initialPolyline,
+            let initialCoordinates: [CLLocationCoordinate2D] = decodePolyline(initialPolylineString) {
+            self.drawPathWith(initialCoordinates, color: .blue)
+        }
+        
     }
 
-    private func drawPathWith(_ coordinates: [CLLocationCoordinate2D]) {
+    private func drawPathWith(_ coordinates: [CLLocationCoordinate2D], color: UIColor) {
         let path = GMSMutablePath()
         let marker = GMSMarker()
         
@@ -52,6 +53,7 @@ class RouteVC: UIViewController {
         
         let rectangle = GMSPolyline(path: path)
         rectangle.strokeWidth = 5.0
+        rectangle.strokeColor = color
         marker.map = mapView
         rectangle.map = mapView
         

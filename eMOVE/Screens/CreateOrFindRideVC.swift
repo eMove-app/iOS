@@ -107,9 +107,9 @@ class CreateOrFindRideVC: UIViewController, NVActivityIndicatorViewable {
                             type: NVActivityIndicatorType(rawValue: sender.tag)!,
                             fadeInAnimation: nil)
         if self.findRideMode {
-            let startPoint = Coordinate(latitude: pickupAddress.coordinate.latitude,
-                                        longitude: pickupAddress.coordinate.longitude)
-            RideAPI.find(startPoint, context: self)
+            let endPoint = Coordinate(latitude: destinationAddress.coordinate.latitude,
+                                        longitude: destinationAddress.coordinate.longitude)
+            RideAPI.find(endPoint, context: self)
                 .done { response in
                     if response.isEmpty {
                         UIAlertController().presentAlertWithTitle(title: "",
