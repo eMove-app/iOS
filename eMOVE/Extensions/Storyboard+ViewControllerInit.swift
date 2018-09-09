@@ -18,6 +18,8 @@ extension UIStoryboard {
         case Main
         case CreateOrFindRide
         case Account
+        case Route
+        case Rides
         var filename: String {
             return rawValue
         }

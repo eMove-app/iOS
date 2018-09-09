@@ -67,7 +67,11 @@ PODS:
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
+  - NVActivityIndicatorView (4.3.0):
+    - NVActivityIndicatorView/Presenter (= 4.3.0)
+  - NVActivityIndicatorView/Presenter (4.3.0)
   - ObjectMapper (3.1.0)
+  - Polyline (4.2.0)
   - PromiseKit (6.3.4):
     - PromiseKit/CorePromise (= 6.3.4)
     - PromiseKit/Foundation (= 6.3.4)
@@ -97,7 +101,9 @@ DEPENDENCIES:
   - IQKeyboardManagerSwift (= 5.0.0)
   - Kingfisher (~> 4.6.2)
   - Moya (~> 11.0)
+  - NVActivityIndicatorView
   - ObjectMapper (~> 3.1.0)
+  - Polyline (~> 4.0)
   - PromiseKit (~> 6.2)
   - ReachabilitySwift (~> 4.1.0)
   - Simple-KeychainSwift (~> 4.0.1)
@@ -130,7 +136,9 @@ SPEC REPOS:
     - leveldb-library
     - Moya
     - nanopb
+    - NVActivityIndicatorView
     - ObjectMapper
+    - Polyline
     - PromiseKit
     - ReachabilitySwift
     - Result
@@ -163,7 +171,9 @@ SPEC CHECKSUMS:
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   Moya: a725035953bc1c0eb1be505ab903984501d82440
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
   ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  Polyline: 3d69f75bb136357e27291d439d0436c6ebda57a4
   PromiseKit: e1425568123ec844a944c93f2bcb29d511d39cf5
   ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
@@ -174,6 +184,6 @@ SPEC CHECKSUMS:
   TimePicker: bfe0e888b76e0ca730b76e8547be9fad65f870d9
   TLFloatLabelTextField: 3e2bb61eeb4d9d23d0704bbded7bb1ccf1ae8c6b
 
-PODFILE CHECKSUM: 60020964424e1b783ffb2dd7a45b6984182e88c9
+PODFILE CHECKSUM: ae13790d38082c8979b009bbf6555de4eee3b0d4
 
 COCOAPODS: 1.5.3

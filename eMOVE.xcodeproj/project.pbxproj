@@ -22,11 +22,23 @@
 		2260EABE214416A10072C05F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260EABD214416A10072C05F /* User.swift */; };
 		2260EAC721441F790072C05F /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2260EAC621441F790072C05F /* Login.storyboard */; };
 		2260EAC9214420480072C05F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2260EAC8214420480072C05F /* Home.storyboard */; };
+		229F36042144B80E00D087B1 /* Route.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229F36032144B80E00D087B1 /* Route.storyboard */; };
+		229F36062144B87C00D087B1 /* RouteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F36052144B87C00D087B1 /* RouteVC.swift */; };
+		229F36082144BE2800D087B1 /* Rides.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229F36072144BE2800D087B1 /* Rides.storyboard */; };
+		229F360C2144BEE500D087B1 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F360B2144BEE500D087B1 /* Reusable.swift */; };
+		229F360F2144BF1900D087B1 /* RidesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F360E2144BF1900D087B1 /* RidesVC.swift */; };
 		22AD05E12143EFEE00ED9F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AD05E02143EFEE00ED9F90 /* AppDelegate.swift */; };
 		22AD05E62143EFEE00ED9F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AD05E42143EFEE00ED9F90 /* Main.storyboard */; };
 		22AD05E82143EFEF00ED9F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AD05E72143EFEF00ED9F90 /* Assets.xcassets */; };
 		22AD05EB2143EFEF00ED9F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AD05E92143EFEF00ED9F90 /* LaunchScreen.storyboard */; };
 		22BD85DA214442440072FBA7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22BD85D9214442440072FBA7 /* GoogleService-Info.plist */; };
+		22CF84F12144C312004C47C6 /* RideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CF84EF2144C312004C47C6 /* RideCell.swift */; };
+		22CF84F22144C312004C47C6 /* RideCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22CF84F02144C312004C47C6 /* RideCell.xib */; };
+		22CF84F42144C73F004C47C6 /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CF84F32144C73F004C47C6 /* Ride.swift */; };
+		22CF84F62144C854004C47C6 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CF84F52144C854004C47C6 /* Direction.swift */; };
+		22CF84F82144CA6D004C47C6 /* StepLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CF84F72144CA6D004C47C6 /* StepLocation.swift */; };
+		22CF84FA2144CAC4004C47C6 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CF84F92144CAC4004C47C6 /* Step.swift */; };
+		22CF84FC2144CB40004C47C6 /* Leg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CF84FB2144CB40004C47C6 /* Leg.swift */; };
 		22D80D102143F23400F5CFDF /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80BCA2143F23400F5CFDF /* APIConstants.swift */; };
 		22D80D112143F23400F5CFDF /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80BCB2143F23400F5CFDF /* APIProvider.swift */; };
 		22D80DCD2143F23500F5CFDF /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80C892143F23400F5CFDF /* BaseService.swift */; };
@@ -69,6 +81,11 @@
 		2260EABD214416A10072C05F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2260EAC621441F790072C05F /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		2260EAC8214420480072C05F /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		229F36032144B80E00D087B1 /* Route.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Route.storyboard; sourceTree = "<group>"; };
+		229F36052144B87C00D087B1 /* RouteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteVC.swift; sourceTree = "<group>"; };
+		229F36072144BE2800D087B1 /* Rides.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Rides.storyboard; sourceTree = "<group>"; };
+		229F360B2144BEE500D087B1 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		229F360E2144BF1900D087B1 /* RidesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidesVC.swift; sourceTree = "<group>"; };
 		22AD05DD2143EFEE00ED9F90 /* eMOVE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eMOVE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AD05E02143EFEE00ED9F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22AD05E52143EFEE00ED9F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -76,6 +93,13 @@
 		22AD05EA2143EFEF00ED9F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22AD05EC2143EFEF00ED9F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22BD85D9214442440072FBA7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22CF84EF2144C312004C47C6 /* RideCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideCell.swift; sourceTree = "<group>"; };
+		22CF84F02144C312004C47C6 /* RideCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RideCell.xib; sourceTree = "<group>"; };
+		22CF84F32144C73F004C47C6 /* Ride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
+		22CF84F52144C854004C47C6 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		22CF84F72144CA6D004C47C6 /* StepLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepLocation.swift; sourceTree = "<group>"; };
+		22CF84F92144CAC4004C47C6 /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		22CF84FB2144CB40004C47C6 /* Leg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leg.swift; sourceTree = "<group>"; };
 		22D80BCA2143F23400F5CFDF /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		22D80BCB2143F23400F5CFDF /* APIProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
 		22D80C892143F23400F5CFDF /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
@@ -124,6 +148,8 @@
 				2260EAA0214409210072C05F /* Map.storyboard */,
 				222D849221444D7500339920 /* CreateOrFindRide.storyboard */,
 				222D849C2144539D00339920 /* Account.storyboard */,
+				229F36032144B80E00D087B1 /* Route.storyboard */,
+				229F36072144BE2800D087B1 /* Rides.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -159,6 +185,15 @@
 			children = (
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		229F360D2144BF1900D087B1 /* Rides */ = {
+			isa = PBXGroup;
+			children = (
+				229F360E2144BF1900D087B1 /* RidesVC.swift */,
+				22CF84EE2144C312004C47C6 /* RideCell */,
+			);
+			path = Rides;
 			sourceTree = "<group>";
 		};
 		22AD05D42143EFEE00ED9F90 = {
@@ -198,6 +233,15 @@
 			path = eMOVE;
 			sourceTree = "<group>";
 		};
+		22CF84EE2144C312004C47C6 /* RideCell */ = {
+			isa = PBXGroup;
+			children = (
+				22CF84EF2144C312004C47C6 /* RideCell.swift */,
+				22CF84F02144C312004C47C6 /* RideCell.xib */,
+			);
+			path = RideCell;
+			sourceTree = "<group>";
+		};
 		22D80BC72143F23400F5CFDF /* Networking */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +269,11 @@
 				22E126BE2144750300D60385 /* Address.swift */,
 				22E126CA2144A2A600D60385 /* RideDTO.swift */,
 				22E126CC2144A31300D60385 /* Coordinate.swift */,
+				22CF84F32144C73F004C47C6 /* Ride.swift */,
+				22CF84F52144C854004C47C6 /* Direction.swift */,
+				22CF84FB2144CB40004C47C6 /* Leg.swift */,
+				22CF84F92144CAC4004C47C6 /* Step.swift */,
+				22CF84F72144CA6D004C47C6 /* StepLocation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -239,6 +288,7 @@
 				222D849A214450E200339920 /* UIView+Layout.swift */,
 				22E126C321448ADF00D60385 /* UIView+Animations.swift */,
 				22E126CE2144A52E00D60385 /* String+Dictionary.swift */,
+				229F360B2144BEE500D087B1 /* Reusable.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -246,12 +296,14 @@
 		22D80E432143FF6D00F5CFDF /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				229F360D2144BF1900D087B1 /* Rides */,
 				2260EAAB214411660072C05F /* Map */,
 				22D80E462143FF8E00F5CFDF /* LoginVC.swift */,
 				222D849421444ECC00339920 /* HomeVC.swift */,
 				222D849621444EDC00339920 /* FindRideVC.swift */,
 				222D849821444EEB00339920 /* CreateOrFindRideVC.swift */,
 				222D849E214453E000339920 /* AccountVC.swift */,
+				229F36052144B87C00D087B1 /* RouteVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -353,11 +405,14 @@
 			files = (
 				222D849321444D7500339920 /* CreateOrFindRide.storyboard in Resources */,
 				22AD05EB2143EFEF00ED9F90 /* LaunchScreen.storyboard in Resources */,
+				229F36082144BE2800D087B1 /* Rides.storyboard in Resources */,
 				222D849D2144539D00339920 /* Account.storyboard in Resources */,
 				22AD05E82143EFEF00ED9F90 /* Assets.xcassets in Resources */,
 				22AD05E62143EFEE00ED9F90 /* Main.storyboard in Resources */,
 				2260EAC9214420480072C05F /* Home.storyboard in Resources */,
+				229F36042144B80E00D087B1 /* Route.storyboard in Resources */,
 				2260EAC721441F790072C05F /* Login.storyboard in Resources */,
+				22CF84F22144C312004C47C6 /* RideCell.xib in Resources */,
 				2260EAA1214409210072C05F /* Map.storyboard in Resources */,
 				22BD85DA214442440072FBA7 /* GoogleService-Info.plist in Resources */,
 			);
@@ -422,7 +477,9 @@
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Polyline/Polyline.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
@@ -450,7 +507,9 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Polyline.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
@@ -475,8 +534,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229F360C2144BEE500D087B1 /* Reusable.swift in Sources */,
 				22D80E3E2143F98800F5CFDF /* UIAlertController+Present.swift in Sources */,
+				229F36062144B87C00D087B1 /* RouteVC.swift in Sources */,
+				22CF84F12144C312004C47C6 /* RideCell.swift in Sources */,
 				222D849F214453E000339920 /* AccountVC.swift in Sources */,
+				22CF84F42144C73F004C47C6 /* Ride.swift in Sources */,
 				2260EABB214416120072C05F /* UserAPI.swift in Sources */,
 				22D80DCF2143F23500F5CFDF /* APIEndpoint.swift in Sources */,
 				22E126BD2144748F00D60385 /* Car.swift in Sources */,
@@ -485,9 +548,12 @@
 				22D80E402143F9CC00F5CFDF /* UIApplication+TopVC.swift in Sources */,
 				2260EAB1214411660072C05F /* MapVC.swift in Sources */,
 				22E126C22144800300D60385 /* PaddingLabel.swift in Sources */,
+				22CF84F82144CA6D004C47C6 /* StepLocation.swift in Sources */,
 				22D80E392143F89800F5CFDF /* SResponseError.swift in Sources */,
 				22D80E352143F83D00F5CFDF /* APIResponse.swift in Sources */,
+				22CF84FA2144CAC4004C47C6 /* Step.swift in Sources */,
 				2260EABE214416A10072C05F /* User.swift in Sources */,
+				22CF84FC2144CB40004C47C6 /* Leg.swift in Sources */,
 				2260EAA5214409DF0072C05F /* Storyboard+ViewControllerInit.swift in Sources */,
 				22AD05E12143EFEE00ED9F90 /* AppDelegate.swift in Sources */,
 				22D80DD02143F23500F5CFDF /* UserAgent.swift in Sources */,
@@ -505,10 +571,12 @@
 				222D849921444EEB00339920 /* CreateOrFindRideVC.swift in Sources */,
 				22E126CF2144A52E00D60385 /* String+Dictionary.swift in Sources */,
 				22E126C421448ADF00D60385 /* UIView+Animations.swift in Sources */,
+				229F360F2144BF1900D087B1 /* RidesVC.swift in Sources */,
 				22D80D112143F23400F5CFDF /* APIProvider.swift in Sources */,
 				22D80E372143F86000F5CFDF /* APINotifications.swift in Sources */,
 				22E126C72144A0AD00D60385 /* RideAPI.swift in Sources */,
 				22D80E472143FF8E00F5CFDF /* LoginVC.swift in Sources */,
+				22CF84F62144C854004C47C6 /* Direction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,6 +17,7 @@ public class User {
     var name: String?
     var car: Car?
     var phone: String?
+    var leavesFromHome: String?
     var addresses: [Address]?
     var workAddresses: [Address]? {
         guard let addresses = self.addresses else { return nil }
@@ -40,5 +41,6 @@ extension User: Mappable {
         car <- map["car"]
         addresses <- map["addresses"]
         phone <- map["phone"]
+        leavesFromHome <- map["leaves_from_home"]
     }
 }

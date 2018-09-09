@@ -8,8 +8,9 @@
 
 import UIKit
 import GoogleMaps
+import NVActivityIndicatorView
 
-class CreateOrFindRideVC: UIViewController {
+class CreateOrFindRideVC: UIViewController, NVActivityIndicatorViewable {
 
     @IBOutlet var timePickerView: UIView!
     @IBOutlet var createRideButton: UIButton!
@@ -26,6 +27,7 @@ class CreateOrFindRideVC: UIViewController {
     override func viewDidLoad() {
         self.createRideButton.isEnabled = false
         self.timePickerView.alpha = 0
+        self.createRideButton.setTitle(self.findRideMode ? "Find Ride" : "Create Ride", for: .normal)
         super.viewDidLoad()
     }
     
@@ -97,15 +99,36 @@ class CreateOrFindRideVC: UIViewController {
         guard let pickupAddress = self.pickupAddress,
             let destinationAddress = self.destinationAddress,
             let departureTime = self.departureTime else { return }
+        
+        sender.isUserInteractionEnabled = false
+        let size = CGSize(width: 30, height: 30)
+        self.startAnimating(size,
+                            message: "Loading...",
+                            type: NVActivityIndicatorType(rawValue: sender.tag)!,
+                            fadeInAnimation: nil)
         if self.findRideMode {
             let startPoint = Coordinate(latitude: pickupAddress.coordinate.latitude,
                                         longitude: pickupAddress.coordinate.longitude)
             RideAPI.find(startPoint, context: self)
                 .done { response in
-                    print(response)
+                    if response.isEmpty {
+                        UIAlertController().presentAlertWithTitle(title: "",
+                                                                  message: "No rides found",
+                                                                  okBlock: nil,
+                                                                  context: nil)
+                        return
+                    }
+                    let storyboard = UIStoryboard(storyboard: .Rides)
+                    let ridesVC: RidesVC = storyboard.instantiateViewController()
+                    ridesVC.rides = response
+                    ridesVC.delegate = self
+                    self.navigationController?.pushViewController(ridesVC, animated: true)
+                }.ensure {
+                    sender.isUserInteractionEnabled = true
+                    self.stopAnimating(nil)
                 }.catch { error in
                     print(error)
-            }
+                }
         } else {
             let startPoint = Coordinate(latitude: pickupAddress.coordinate.latitude, longitude: pickupAddress.coordinate.longitude)
             let endPoint = Coordinate(latitude: destinationAddress.coordinate.latitude, longitude: destinationAddress.coordinate.longitude)
@@ -117,7 +140,13 @@ class CreateOrFindRideVC: UIViewController {
 
             RideAPI.create(input, context: self)
             .done { response in
-                print(response)
+                let storyboard = UIStoryboard(storyboard: .Route)
+                let routeVC: RouteVC = storyboard.instantiateViewController()
+                routeVC.direction = response
+                self.navigationController?.pushViewController(routeVC, animated: true)
+            }.ensure {
+                sender.isUserInteractionEnabled = true
+                self.stopAnimating(nil)
             }.catch { error in
                 print(error)
             }
@@ -133,5 +162,15 @@ extension CreateOrFindRideVC: MapVCDelegate {
             self.destinationAddress = address
         }
         self.updateLayout()
+    }
+}
+
+
+extension CreateOrFindRideVC: RidesVCDelegate {
+    func ridesVCDidSelect(ride: Direction) {
+        let storyboard = UIStoryboard(storyboard: .Route)
+        let routeVC: RouteVC = storyboard.instantiateViewController()
+        routeVC.direction = ride
+        self.navigationController?.pushViewController(routeVC, animated: true)
     }
 }

@@ -24,5 +24,7 @@ pod 'TLFloatLabelTextField'
 pod 'IQKeyboardManagerSwift', '5.0.0'
 pod 'SkyFloatingLabelTextField', '~> 3.0'
 pod 'TimePicker'
+pod 'Polyline', '~> 4.0'
+pod 'NVActivityIndicatorView'
 
 end
