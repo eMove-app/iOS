@@ -1,44 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QIu-Gv-kz7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--MapVC-->
-        <scene sceneID="uqf-aA-TCk">
+        <scene sceneID="jTj-FD-KGA">
             <objects>
-                <viewController storyboardIdentifier="MapVC" id="QIu-Gv-kz7" customClass="MapVC" customModule="eMOVE" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="f4L-PQ-o8C">
+                <viewController storyboardIdentifier="MapVC" id="02a-Kw-huN" customClass="MapVC" customModule="eMOVE" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cQI-Md-4cg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AHA-4O-GNo" userLabel="mapView" customClass="GMSMapView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z3v-Qc-YSB" userLabel="mapView" customClass="GMSMapView">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2UQ-bn-Nid" userLabel="addressLabel">
+                                <rect key="frame" x="0.0" y="646.5" width="375" height="20.5"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenPinPoint" translatesAutoresizingMaskIntoConstraints="NO" id="Frv-Lm-4N2" userLabel="mapCenterPinImage">
+                                <rect key="frame" x="172.5" y="288.5" width="30" height="55"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="AHA-4O-GNo" firstAttribute="leading" secondItem="EGe-mM-CiU" secondAttribute="leading" id="3JB-Y7-0fx"/>
-                            <constraint firstItem="EGe-mM-CiU" firstAttribute="bottom" secondItem="AHA-4O-GNo" secondAttribute="bottom" id="6ly-HX-VNi"/>
-                            <constraint firstItem="AHA-4O-GNo" firstAttribute="top" secondItem="f4L-PQ-o8C" secondAttribute="top" id="Ls8-Of-8q3"/>
-                            <constraint firstItem="EGe-mM-CiU" firstAttribute="trailing" secondItem="AHA-4O-GNo" secondAttribute="trailing" id="zCD-Sm-h6g"/>
+                            <constraint firstItem="2UQ-bn-Nid" firstAttribute="leading" secondItem="VCY-nd-M4v" secondAttribute="leading" id="0RX-fa-ncJ"/>
+                            <constraint firstAttribute="trailing" secondItem="z3v-Qc-YSB" secondAttribute="trailing" id="45x-UE-p4t"/>
+                            <constraint firstItem="VCY-nd-M4v" firstAttribute="centerY" secondItem="Frv-Lm-4N2" secondAttribute="bottom" id="JJ9-RZ-VJk"/>
+                            <constraint firstItem="VCY-nd-M4v" firstAttribute="trailing" secondItem="2UQ-bn-Nid" secondAttribute="trailing" id="KL1-pr-6XI"/>
+                            <constraint firstItem="VCY-nd-M4v" firstAttribute="centerX" secondItem="Frv-Lm-4N2" secondAttribute="centerX" id="Y9C-8Y-HxR"/>
+                            <constraint firstItem="z3v-Qc-YSB" firstAttribute="top" secondItem="cQI-Md-4cg" secondAttribute="top" id="YKH-OU-MTW"/>
+                            <constraint firstItem="z3v-Qc-YSB" firstAttribute="leading" secondItem="cQI-Md-4cg" secondAttribute="leading" id="gNj-J8-glI"/>
+                            <constraint firstItem="VCY-nd-M4v" firstAttribute="bottom" secondItem="2UQ-bn-Nid" secondAttribute="bottom" id="gT1-2I-17b"/>
+                            <constraint firstAttribute="bottom" secondItem="z3v-Qc-YSB" secondAttribute="bottom" id="pyu-G7-P4g"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="EGe-mM-CiU"/>
+                        <viewLayoutGuide key="safeArea" id="VCY-nd-M4v"/>
                     </view>
+                    <navigationItem key="navigationItem" id="G5V-ar-BDg">
+                        <nil key="title"/>
+                    </navigationItem>
                     <connections>
-                        <outlet property="mapView" destination="AHA-4O-GNo" id="1oB-2Y-r7i"/>
+                        <outlet property="addressLabel" destination="2UQ-bn-Nid" id="RVW-2N-jn3"/>
+                        <outlet property="mapView" destination="z3v-Qc-YSB" id="WIR-FF-8qD"/>
+                        <outlet property="pinImageVerticalConstraint" destination="JJ9-RZ-VJk" id="gDu-Br-vr6"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5mE-zu-1sA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gAI-cj-mWW" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-578" y="60"/>
+            <point key="canvasLocation" x="983" y="797"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="greenPinPoint" width="30" height="55"/>
+    </resources>
 </document>

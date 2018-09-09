@@ -16,8 +16,7 @@ extension UIStoryboard {
         case Login
         case Home
         case Main
-        case CreateRide
-        case FindRide
+        case CreateOrFindRide
         case Account
         var filename: String {
             return rawValue

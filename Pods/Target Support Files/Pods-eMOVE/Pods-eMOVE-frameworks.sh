@@ -165,6 +165,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyUUID/SwiftyUUID.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TLFloatLabelTextField/TLFloatLabelTextField.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TimePicker/TimePicker.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
 fi
@@ -191,6 +192,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyUUID/SwiftyUUID.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TLFloatLabelTextField/TLFloatLabelTextField.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TimePicker/TimePicker.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
 fi

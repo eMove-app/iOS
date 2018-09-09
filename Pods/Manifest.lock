@@ -83,6 +83,7 @@ PODS:
   - SkyFloatingLabelTextField (3.5.1)
   - SwiftyUserDefaults (3.0.1)
   - SwiftyUUID (1.1.0)
+  - TimePicker (0.0.4)
   - TLFloatLabelTextField (0.1.3)
 
 DEPENDENCIES:
@@ -103,6 +104,7 @@ DEPENDENCIES:
   - SkyFloatingLabelTextField (~> 3.0)
   - SwiftyUserDefaults (~> 3.0.1)
   - SwiftyUUID (~> 1.0)
+  - TimePicker
   - TLFloatLabelTextField
 
 SPEC REPOS:
@@ -136,6 +138,7 @@ SPEC REPOS:
     - SkyFloatingLabelTextField
     - SwiftyUserDefaults
     - SwiftyUUID
+    - TimePicker
     - TLFloatLabelTextField
 
 SPEC CHECKSUMS:
@@ -168,8 +171,9 @@ SPEC CHECKSUMS:
   SkyFloatingLabelTextField: 4cbeece9c3aae97c6019d8fae511cb5b755874f7
   SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
   SwiftyUUID: 3cf8e9a58d5f32280766b8de9a0fd0a6e4040f68
+  TimePicker: bfe0e888b76e0ca730b76e8547be9fad65f870d9
   TLFloatLabelTextField: 3e2bb61eeb4d9d23d0704bbded7bb1ccf1ae8c6b
 
-PODFILE CHECKSUM: 797feb37207e32813bed57ecd34a13cd444f7951
+PODFILE CHECKSUM: 60020964424e1b783ffb2dd7a45b6984182e88c9
 
 COCOAPODS: 1.5.3

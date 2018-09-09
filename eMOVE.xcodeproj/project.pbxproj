@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		222D849121444D1700339920 /* FindRide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222D849021444D1700339920 /* FindRide.storyboard */; };
-		222D849321444D7500339920 /* CreateRide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222D849221444D7500339920 /* CreateRide.storyboard */; };
+		222D849321444D7500339920 /* CreateOrFindRide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222D849221444D7500339920 /* CreateOrFindRide.storyboard */; };
 		222D849521444ECC00339920 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D849421444ECC00339920 /* HomeVC.swift */; };
 		222D849721444EDC00339920 /* FindRideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D849621444EDC00339920 /* FindRideVC.swift */; };
-		222D849921444EEB00339920 /* CreateRideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D849821444EEB00339920 /* CreateRideVC.swift */; };
+		222D849921444EEB00339920 /* CreateOrFindRideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D849821444EEB00339920 /* CreateOrFindRideVC.swift */; };
 		222D849B214450E200339920 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D849A214450E200339920 /* UIView+Layout.swift */; };
 		222D849D2144539D00339920 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222D849C2144539D00339920 /* Account.storyboard */; };
 		222D849F214453E000339920 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D849E214453E000339920 /* AccountVC.swift */; };
@@ -44,15 +43,16 @@
 		22D80E472143FF8E00F5CFDF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D80E462143FF8E00F5CFDF /* LoginVC.swift */; };
 		22E126BD2144748F00D60385 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E126BC2144748F00D60385 /* Car.swift */; };
 		22E126BF2144750300D60385 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E126BE2144750300D60385 /* Address.swift */; };
+		22E126C22144800300D60385 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E126C12144800300D60385 /* PaddingLabel.swift */; };
+		22E126C421448ADF00D60385 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E126C321448ADF00D60385 /* UIView+Animations.swift */; };
 		689132A9FC819B5ACEBE2A20 /* Pods_eMOVE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9515DAEDBAEB5C2A67116C53 /* Pods_eMOVE.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		222D849021444D1700339920 /* FindRide.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FindRide.storyboard; sourceTree = "<group>"; };
-		222D849221444D7500339920 /* CreateRide.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateRide.storyboard; sourceTree = "<group>"; };
+		222D849221444D7500339920 /* CreateOrFindRide.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateOrFindRide.storyboard; sourceTree = "<group>"; };
 		222D849421444ECC00339920 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		222D849621444EDC00339920 /* FindRideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindRideVC.swift; sourceTree = "<group>"; };
-		222D849821444EEB00339920 /* CreateRideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRideVC.swift; sourceTree = "<group>"; };
+		222D849821444EEB00339920 /* CreateOrFindRideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrFindRideVC.swift; sourceTree = "<group>"; };
 		222D849A214450E200339920 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
 		222D849C2144539D00339920 /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
 		222D849E214453E000339920 /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
@@ -87,6 +87,8 @@
 		22D80E462143FF8E00F5CFDF /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		22E126BC2144748F00D60385 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		22E126BE2144750300D60385 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		22E126C12144800300D60385 /* PaddingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		22E126C321448ADF00D60385 /* UIView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
 		33DFA3B184E17E7B31EA859C /* Pods-eMOVE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eMOVE.release.xcconfig"; path = "Pods/Target Support Files/Pods-eMOVE/Pods-eMOVE.release.xcconfig"; sourceTree = "<group>"; };
 		9515DAEDBAEB5C2A67116C53 /* Pods_eMOVE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eMOVE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7025003403A272C235DE6BE /* Pods-eMOVE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eMOVE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eMOVE/Pods-eMOVE.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,8 +112,7 @@
 				2260EAC621441F790072C05F /* Login.storyboard */,
 				2260EAC8214420480072C05F /* Home.storyboard */,
 				2260EAA0214409210072C05F /* Map.storyboard */,
-				222D849021444D1700339920 /* FindRide.storyboard */,
-				222D849221444D7500339920 /* CreateRide.storyboard */,
+				222D849221444D7500339920 /* CreateOrFindRide.storyboard */,
 				222D849C2144539D00339920 /* Account.storyboard */,
 			);
 			path = Storyboards;
@@ -175,6 +176,7 @@
 				2260EA9F214408D50072C05F /* Storyboards */,
 				22D80E432143FF6D00F5CFDF /* Screens */,
 				22D80E3A2143F91B00F5CFDF /* Extensions */,
+				22E126C02144800300D60385 /* Subclasses */,
 				22AD05E02143EFEE00ED9F90 /* AppDelegate.swift */,
 				22AD05E42143EFEE00ED9F90 /* Main.storyboard */,
 				22AD05E72143EFEF00ED9F90 /* Assets.xcassets */,
@@ -222,6 +224,7 @@
 				22D80E3B2143F91B00F5CFDF /* MoyaProvider+Promise.swift */,
 				22D80E3F2143F9CC00F5CFDF /* UIApplication+TopVC.swift */,
 				222D849A214450E200339920 /* UIView+Layout.swift */,
+				22E126C321448ADF00D60385 /* UIView+Animations.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -233,10 +236,18 @@
 				22D80E462143FF8E00F5CFDF /* LoginVC.swift */,
 				222D849421444ECC00339920 /* HomeVC.swift */,
 				222D849621444EDC00339920 /* FindRideVC.swift */,
-				222D849821444EEB00339920 /* CreateRideVC.swift */,
+				222D849821444EEB00339920 /* CreateOrFindRideVC.swift */,
 				222D849E214453E000339920 /* AccountVC.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		22E126C02144800300D60385 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				22E126C12144800300D60385 /* PaddingLabel.swift */,
+			);
+			path = Subclasses;
 			sourceTree = "<group>";
 		};
 		FC2EE9AEDC1F1DE94CE15E4E /* Pods */ = {
@@ -317,7 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222D849321444D7500339920 /* CreateRide.storyboard in Resources */,
+				222D849321444D7500339920 /* CreateOrFindRide.storyboard in Resources */,
 				22AD05EB2143EFEF00ED9F90 /* LaunchScreen.storyboard in Resources */,
 				222D849D2144539D00339920 /* Account.storyboard in Resources */,
 				22AD05E82143EFEF00ED9F90 /* Assets.xcassets in Resources */,
@@ -326,7 +337,6 @@
 				2260EAC721441F790072C05F /* Login.storyboard in Resources */,
 				2260EAA1214409210072C05F /* Map.storyboard in Resources */,
 				22BD85DA214442440072FBA7 /* GoogleService-Info.plist in Resources */,
-				222D849121444D1700339920 /* FindRide.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +408,7 @@
 				"${BUILT_PRODUCTS_DIR}/SwiftyUUID/SwiftyUUID.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
 				"${BUILT_PRODUCTS_DIR}/TLFloatLabelTextField/TLFloatLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/TimePicker/TimePicker.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -425,6 +436,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUUID.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TLFloatLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TimePicker.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -448,6 +460,7 @@
 				22D80D102143F23400F5CFDF /* APIConstants.swift in Sources */,
 				22D80E402143F9CC00F5CFDF /* UIApplication+TopVC.swift in Sources */,
 				2260EAB1214411660072C05F /* MapVC.swift in Sources */,
+				22E126C22144800300D60385 /* PaddingLabel.swift in Sources */,
 				22D80E392143F89800F5CFDF /* SResponseError.swift in Sources */,
 				22D80E352143F83D00F5CFDF /* APIResponse.swift in Sources */,
 				2260EABE214416A10072C05F /* User.swift in Sources */,
@@ -463,7 +476,8 @@
 				22D80DCD2143F23500F5CFDF /* BaseService.swift in Sources */,
 				22D80DD12143F23500F5CFDF /* TrustPolicyManager.swift in Sources */,
 				222D849B214450E200339920 /* UIView+Layout.swift in Sources */,
-				222D849921444EEB00339920 /* CreateRideVC.swift in Sources */,
+				222D849921444EEB00339920 /* CreateOrFindRideVC.swift in Sources */,
+				22E126C421448ADF00D60385 /* UIView+Animations.swift in Sources */,
 				22D80D112143F23400F5CFDF /* APIProvider.swift in Sources */,
 				22D80E372143F86000F5CFDF /* APINotifications.swift in Sources */,
 				22D80E472143FF8E00F5CFDF /* LoginVC.swift in Sources */,

@@ -18,16 +18,21 @@ class HomeVC: UIViewController {
         super.viewWillAppear(true)
         self.navigationController?.isNavigationBarHidden = true
     }
+    
+    private func getCreateOrRideVC() ->  CreateOrFindRideVC {
+        let storyboard = UIStoryboard(storyboard: .CreateOrFindRide)
+        let createOrFindRideVC: CreateOrFindRideVC = storyboard.instantiateViewController()
+        return createOrFindRideVC
+    }
 
     @IBAction func createRideButtonPressed(_ sender: UIButton) {
-        let storyboard = UIStoryboard(storyboard: .CreateRide)
-        let createRideVC: CreateRideVC = storyboard.instantiateViewController()
-        self.navigationController?.pushViewController(createRideVC, animated: true)
+        let createOrFindRideVC = self.getCreateOrRideVC()
+        self.navigationController?.pushViewController(createOrFindRideVC, animated: true)
     }
     
     @IBAction func findRideButtonPressed(_ sender: UIButton) {
-        let storyboard = UIStoryboard(storyboard: .FindRide)
-        let findRideVC: FindRideVC = storyboard.instantiateViewController()
-        self.navigationController?.pushViewController(findRideVC, animated: true)
+        let createOrFindRideVC = self.getCreateOrRideVC()
+        createOrFindRideVC.findRideMode = true
+        self.navigationController?.pushViewController(createOrFindRideVC, animated: true)
     }
 }
